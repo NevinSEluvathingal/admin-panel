@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin Wheel App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="shared.css" />
+  </head>
+  <style>
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #c3a3f1, #6414e9);
+    align-items:center ;
+  }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: space-evenly;
+    height: 5rem;
+    width: 100%;
+  }
+  .wrapper3{
+    position: absolute;
+  transform: translate(-50%, -50%);
+  top: 39%;
+  left: 50%;
+  height: 37vh;
+  }
+  .flex6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  .wrapper {
+    padding: 0.5rem;
+    background-color: beige;
+    margin: 2px;
+    text-align: center;
+    border-radius: 9px;
+  }
+  .wrapper4 {
+  width: 100%;
+  max-width: 30.37em;
+  max-height: 4rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 1em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+.wrapper4 a {
+    text-decoration: none;
+}
+  .center {
+    text-align: center;
+  }
+
+
+  </style>
+  <body>
+    <div class="wrapper3">   
+     <div class="center">
+      <h1>Todays</h1>
+    </div>
+    <div class="wrapper2">
+         <div class="wrapper">
+            <p>Total Deposit</p>
+         </div>    
+         <div class="wrapper">
+            <p>Total withdraw</p>
+         </div>
+         <div class="wrapper">  
+            <p>Total profit</p>
+         </div>                 
+    </div>
+    <div class="flex6">
+        <div class="wrapper4">
+            <a href="./user.html">view Users</a>
+        </div>
+        <div class="wrapper4">
+            <a href="./deposit.html">deposit money</a>
+        </div>
+        <div class="wrapper4">
+            <a href="./details.html">User Details</a>
+        </div>
+    </div>
+    </div>
+  
+
+
+
+
+  </body>
+</html>
